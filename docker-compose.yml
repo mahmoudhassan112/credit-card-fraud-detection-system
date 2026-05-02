@@ -1,0 +1,27 @@
+
+
+services:
+
+  fraud-api:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: fraud-api
+
+    ports:
+     - "${APP_PORT}:8000"
+
+    volumes:
+     - ./E1/Model/:/app/E1/Model/
+     - ./serving/logging.db:/app/serving/logging.db
+
+    env_file:
+      - .env
+
+    restart: unless-stopped
+
+networks:
+ default:
+   name : fraud_network
+

@@ -1,0 +1,25 @@
+# Write down steps you must follow for scoping  
+
+Scoping Steps: 
+
+1- Identify business problem: Prevent unauthorized transactions even attackers possess valid card credentials.
+
+2- Brainstorm solutions: One of the solutions is Building ML-Model 
+                          Classification.
+
+3- Assess feasibility&Value of potential solutions: First, Let's ask some 
+                         questions, first one is how much data can we obtain in 2 days?,the second is if data was obtained in the
+                         specific period, de we have features that are 
+                         predictive ?, we have already collected data in 2 days and the features are predictive so , the solution is 
+                         feasible. feasible solution doesn't mean it's valuable,
+                         so we must put agreement on metrics for business and
+                         machine learning model, one last question, is the solution is valuble and has high impact on business?,
+                         the answer is yes, because it will decrease customer complaints(for ex. customer sends complaint saying "I didn't purchase
+                           anything).
+                         iFinally, there are some ethical considerations such as this solution won't breach credit card informations to anybody.             
+
+4- Determine milestones: Firstly, we'll use ML metrics such as precision , recall , confusion matrix and f1 score.
+                         In addition, business metrics such as will users reduce sending complaints compared to transactions(clac the ratio).
+                         Finally, the resource we need is data.
+
+5- Timeline: We unsure, so we will build a POC(Proof-of-Concept) first.

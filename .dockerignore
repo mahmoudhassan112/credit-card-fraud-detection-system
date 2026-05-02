@@ -1,0 +1,34 @@
+# Data files - too large
+E1/Data/
+Prototype Model/Data/
+
+# Model files - mounted via volumes
+
+E1/Model/model.pth
+Prototype Model/Data/
+
+# Jupyter notebooks - not need in production
+*.ipynb
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Enviroment & secrets
+.env 
+*.env
+
+# Logs & database - mounted via volume
+serving/logging.db 
+serving/model.log 
+
+# Git 
+.git/
+.gitignore
+
+# Local experiments
+experiments.csv
+*.png
+scoping process.txt
