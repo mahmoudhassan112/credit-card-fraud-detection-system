@@ -22,3 +22,6 @@ __pycache__/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# vs code
+.vscode
