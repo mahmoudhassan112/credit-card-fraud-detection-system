@@ -24,4 +24,4 @@ __pycache__/
 .ipynb_checkpoints/
 
 # vs code
-.vscode
+.vscode/
